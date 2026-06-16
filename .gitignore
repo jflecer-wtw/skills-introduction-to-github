@@ -35,3 +35,9 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Angular / Node.js #
+######################
+weather-app/node_modules/
+weather-app/dist/
+weather-app/.angular/

@@ -1,0 +1,12 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a6ba0 0%, #0d3b63 50%, #082b4a 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-white-75 {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
