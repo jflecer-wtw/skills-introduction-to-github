@@ -1,0 +1,36 @@
+:host {
+  display: block;
+}
+
+.weather-card {
+  border-radius: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.2) !important;
+  }
+}
+
+.hourly-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #dee2e6 transparent;
+
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #dee2e6;
+    border-radius: 4px;
+  }
+}
+
+.hourly-item {
+  min-width: 56px;
+  padding: 4px 6px;
+  border-radius: 0.5rem;
+  background: rgba(0, 0, 0, 0.04);
+}
